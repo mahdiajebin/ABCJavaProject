@@ -1,0 +1,99 @@
+*{
+    font-family: verdana;
+    font-size: 12pt;
+}
+h1{
+    font-size: 200%;
+    text-align: center;
+}
+body {
+    padding: 30px;
+}
+
+.divBody {
+    height: 16.5in;
+    width: 12in;
+    display:inline-block;  
+    padding: 0.0in  .0in  .0in  .25in;
+}
+
+.divScenario {
+    display:inline-block;
+    height: 1.2in;
+    width: 1.64in;
+    border: solid 1px black; 
+    margin:  3px 3px 6px 3px; 
+    padding: 16px 10px 0px 10px;            
+}
+
+
+.tooMuchMoney{
+	background-color: rgb(249,206,206)
+}
+
+
+
+input {
+    width: .90in;
+    text-align: right;
+    padding-right: 9px;
+}
+
+input[type=submit] {
+    width: 1.5in;
+    text-align: center;
+    
+}
+
+input.interest, input.scenario {
+    width: .60in;            
+}
+.divScenario span {
+    display:inline-block;
+    width: 25px;
+    font-weight: bold;
+}   
+input.calculate {
+    width: 1.3in;
+    text-align: center;            
+}   
+
+.ink{
+	color: blue;
+	font-weight: bold;
+}     
+
+.moneyimg{
+	width: 50px;
+	heigh: 40px;
+}
+
+span.uletter, span.lletter{
+	display: block;	
+	-border: solid 1px pink;
+	width: .45in;
+	margin-right: auto;
+	text-align: center;
+	font-size: 110%;
+}
+
+span.lletter{
+	float: right;
+}
+
+span.number{
+	font-size: 225%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+  	width: 100%;
+  	-border: solid 1px pink;
+}
+
+.highlight{
+	background-color: silver;
+}
+
+
+        
